@@ -1,0 +1,56 @@
+  body{
+	  background:url(new_year_background.png);
+	  font-size: 18px;
+	  font-color: #333;
+  }
+  table{
+	  width:100%;
+	  margin-top:200px;
+	  }
+  td{
+	  display: inline;
+	  vertical-align:top;
+  }
+
+    .nav {
+	  float: none;
+	  width: 300px;
+	  border-bottom: 2px solid #333; 
+	  margin-right: 20px;
+	}
+	
+	.article {
+	}
+	
+	.nav ul {
+	  padding: 0;
+	}
+	
+	.nav ul li {
+		display: inline
+		list-style: none;
+		margin-left: 20px;
+	}
+	
+        img { 
+             width:100%;
+             height:auto;
+        }
+	@media only screen and (min-device-width: 1024px) {
+        body {
+               width:960px;
+              margin:0 auto;
+        }
+	  .nav {
+		  float: left;
+	  }
+	 .nav ul li {
+	     display: block;
+		 margin-left: auto;
+	  }
+	  td{
+		  display: table-cell;
+		  width:50%;
+                  padding-right:50px;
+		  }
+	}
