@@ -8,7 +8,7 @@
      margin-top: 50px;
  }
  td {
-     display: inline;
+     display: block;
      vertical-align: top;
  }
  .nav {
